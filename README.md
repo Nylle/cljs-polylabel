@@ -20,4 +20,4 @@ user=> (polylabel polygon 10) ;; with custom precision of 10
 
 ## License
 
-MIT
+[MIT](https://github.com/Nylle/cljs-polylabel/blob/master/LICENSE.txt)
