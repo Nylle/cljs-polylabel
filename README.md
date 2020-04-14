@@ -9,8 +9,8 @@ The people at [mapbox](https://blog.mapbox.com/a-new-algorithm-for-finding-a-vis
 This is the attempt to port the algorithm to ClojureScript.
 
 ## Usage
-```clojurescript
-user=> (def polygon [[[167 74.3] [182.75 74.3] [182.75 66.2] [167 66.2] [167 74.3]]])
+```
+user=> (def polygon [[[167 74.3] [182.75 74.3] [182.75 66.2] [167 66.2] [167 74.3]]]) ;; geoJSON
 user=> (polylabel polygon) ;; using default precision of 1.0
 [174.875 70.25]
 
